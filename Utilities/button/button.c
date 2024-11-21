@@ -204,6 +204,7 @@ button_event_e button_scan(button_t *p_btn)
 	return ev.ev_type;
 }
 
+/*按键的构造函数:通常用于在创建对象时初始化对象的状态*/
 button_t button_ctor(button_cfg_t *p_cfg, btn_event_callback cb)
 {
 	button_t btn;
